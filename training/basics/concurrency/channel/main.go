@@ -8,7 +8,6 @@ func main() {
 	// Declare a unbuffered channel
 	counter := make(chan int)
 
-
 	// Creates a buffered channel with capacity of 3
 	nums := make(chan int, 3)
 	go func() {
